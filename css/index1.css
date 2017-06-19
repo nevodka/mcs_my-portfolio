@@ -7,6 +7,7 @@ body {
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    height: 100%;
 }
 
 h1 {
@@ -57,9 +58,10 @@ h1:hover {
 .portfolio-items {
     padding-bottom: 50px;
     text-transform: uppercase;
+    position: relative;
 }
 .img {
-    width: 450px;
+    width: 100%;
 }
 
 .portfolio-items img {
@@ -85,7 +87,10 @@ h1:hover {
 
 .menu-items {
     padding: 40px;
+    position: relative;
 }
+
+
 
 
 
